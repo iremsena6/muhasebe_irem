@@ -46,19 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\OneDrive\Belgeler\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Form1.cs">
+    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form1.cs">
       <SubType>Form</SubType>
       <Link>Form1.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\OneDrive\Belgeler\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Form1.Designer.cs">
+    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
       <Link>Form1.Designer.cs</Link>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form2.cs">
       <SubType>Form</SubType>
+      <Link>Form2.cs</Link>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
+    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
+      <Link>Form2.Designer.cs</Link>
     </Compile>
     <Compile Include="muhasebeDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -67,18 +69,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="vt.cs">
+    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\vt.cs">
       <SubType>Form</SubType>
+      <Link>vt.cs</Link>
     </Compile>
-    <Compile Include="vt.Designer.cs">
+    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\vt.Designer.cs">
       <DependentUpon>vt.cs</DependentUpon>
+      <Link>vt.Designer.cs</Link>
     </Compile>
-    <EmbeddedResource Include="..\..\..\OneDrive\Belgeler\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\Form1.resx">
+    <EmbeddedResource Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <Link>Form1.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
+    <EmbeddedResource Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+      <Link>Form2.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
