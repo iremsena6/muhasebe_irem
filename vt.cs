@@ -17,7 +17,6 @@ namespace muhasebe_irem
         {
             InitializeComponent();
         }
-        static string constring = "Data Source=LENOVO-IREMS\\SQLEXPRESS01;Initial Catalog = muhasebe; Integrated Security = True";
-        SqlConnection connect = new SqlConnection(constring);
+        
     }
 }

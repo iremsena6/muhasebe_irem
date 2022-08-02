@@ -46,21 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form1.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
-      <Link>Form1.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form1.Designer.cs">
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-      <Link>Form1.Designer.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form2.cs">
+    <Compile Include="Form2.cs">
       <SubType>Form</SubType>
-      <Link>Form2.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form2.Designer.cs">
+    <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
-      <Link>Form2.Designer.cs</Link>
+    </Compile>
+    <Compile Include="kullanici_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kullanici_ekle.Designer.cs">
+      <DependentUpon>kullanici_ekle.cs</DependentUpon>
     </Compile>
     <Compile Include="muhasebeDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -77,13 +79,14 @@
       <DependentUpon>vt.cs</DependentUpon>
       <Link>vt.Designer.cs</Link>
     </Compile>
-    <EmbeddedResource Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form1.resx">
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-      <Link>Form1.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\..\..\OneDrive\Masaüstü\muhasebe_irem\Form2.resx">
+    <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
-      <Link>Form2.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kullanici_ekle.resx">
+      <DependentUpon>kullanici_ekle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
